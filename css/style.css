@@ -10,86 +10,50 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.page-header .header-top {
-    background-color: #f72210;
-    color:white;
-}
-
 .header-top {
-      height: 95px;
-      padding: 20px 10px 15px;
-}
-
-
-.header-top {
+    background: red;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
     position: relative;
-    z-index: 2;
-}
-.jc-sb {
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-}
-.ai-fe {
-    -webkit-align-items: flex-end;
+    display: flex;
     align-items: flex-end;
 }
-.flex-xs {
-    display: -webkit-flex;
-    display: flex;
+.header-top h4 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3rem;
+    font-weight: 400;
+    color: white;
 }
-.jc-fe {
-    -webkit-justify-content: flex-end;
-    justify-content: flex-end;
+.header-item button {
+    background: #fff;
+    color: red;
+    border: 0;
 }
-.ai-c {
-    -webkit-align-items: center;
-    align-items: center;
-}
-.flex-xs {
-    display: -webkit-flex;
-    display: flex;
-}
-.page-header .header-bottom {
-    padding-right: 160px;
-}
-.header-bottom {
-    position: relative;
-    display: block;
-    background-color: #fff;
-    border-bottom-color: #f4f5f6;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    z-index: 1;
-}
-.flex-md {
-    display: -webkit-flex;
-    display: flex;
-}
-.jc-c {
-    -webkit-justify-content: center;
-    justify-content: center;
-}
-.page-header form#search-block-form--2 .element-invisible {
-    right: 82px;
-}
-.page-header form#search-block-form--2 .element-invisible {
-    right: 38px;
-}
-form#search-block-form--2 .element-invisible {
-    top: 18px;
-}
-form#search-block-form--2 .element-invisible {
-    background: url("https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-search-glass.svg") center/contain no-repeat #fff;
-    width: 20px;
+.header-item p {
+
     height: 20px;
-    clip: auto;
-    font-size: 0;
-    position: absolute;
-    top: 0;
-    right: 0;
+
 }
+.nav-item{
+  border-left-color: #d9d9d9;
+  border-left-width: 1px;
+  border-left-style: solid;
+  align-items: stretch;
+  position: relative;
+  padding-left: 11px;
+
+}
+@media screen and (max-width: 990px) {
+ .navbar {
+   background-color: #ff0000;
+ }
+ .header-top{
+    display: none;
+ }
+
+}
+
 .element-invisible {
     position: absolute;
     clip: rect(1px 1px 1px 1px);
