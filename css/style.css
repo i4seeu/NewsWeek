@@ -124,3 +124,14 @@ body {
 .side-image{
   padding-right: 14px;
 }
+.editors{
+  padding-top: 40px;
+}
+.title{color:red;}
+.newstitle{
+  font-size: 30px;
+  font-weight: bolder;
+}
+.social{
+  text-align: center;
+}
