@@ -1,0 +1,132 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0 none;
+    list-style: none outside none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.header-top {
+    background: red;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+.header-top h4 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3rem;
+    font-weight: 400;
+    color: white;
+}
+.header-item button {
+    background: #fff;
+    color: red;
+    border: 0;
+}
+.header-item p {
+
+    height: 20px;
+
+}
+.center{
+  text-align: center;
+}
+.nav-item{
+  border-left-color: #d9d9d9;
+  border-left-width: 1px;
+  border-left-style: solid;
+  align-items: stretch;
+  position: relative;
+  padding-left: 11px;
+  padding-right: 11px;
+
+}
+.nav-item:first-child{
+  border-left: none;
+}
+@media screen and (max-width: 990px) {
+ .navbar {
+   background-color: #ff0000;
+ }
+ .header-top{
+    display: none;
+ }
+
+}
+
+.element-invisible {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px,1px,1px,1px);
+    overflow: hidden;
+    height: 1px;
+}
+h2 {
+    font-size: 33px;
+    line-height: 33px;
+}
+h2 {
+    font-size: 22px;
+    line-height: 22px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Condensed",sans-serif;
+    margin-bottom: 10px;
+    position: relative;
+    color: #000;
+}
+.block-title {
+    font: bold 16px/16px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 11px;
+    color: rgba(3,3,3,.4);
+}
+body {
+    font-size: 15px;
+    line-height: 20px;
+}
+.side-image{
+  padding-right: 14px;
+}
+.editors{
+  padding-top: 40px;
+}
+.title{color:red;}
+.newstitle{
+  font-size: 30px;
+  font-weight: bolder;
+}
+.social{
+  text-align: center;
+}
+.logo{
+    font-family: "Alfa Slab One", cursive;
+    font-size: 4rem;
+    font-weight: 400;
+}
+.logo-t{
+  font-family: "Alfa Slab One", cursive;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.nav-link a:hover{
+  color: red;
+}
+.pad{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+  color:#f72210;
+}
