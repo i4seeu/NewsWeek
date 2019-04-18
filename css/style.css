@@ -45,7 +45,11 @@
   align-items: stretch;
   position: relative;
   padding-left: 11px;
+  padding-right: 11px;
 
+}
+.nav-item:first-child{
+  border-left: none;
 }
 @media screen and (max-width: 990px) {
  .navbar {
@@ -123,6 +127,6 @@ body {
   margin-left: 1px;
   margin-right: 1px;
 }
-ul>li>a:hover{
-  color:green;
+.navbar-nav .nav-item .nav-link:hover{
+  color:#f72210;
 }
